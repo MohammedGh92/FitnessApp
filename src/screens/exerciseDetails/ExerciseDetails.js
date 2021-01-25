@@ -59,12 +59,12 @@ const ExerciseDetails = (props) => {
       </AppView>
 
       <AppView margin={5} spaceBetween width={90}>
-        <AppText bold size={8} color={getThemeColor('1')}>Body Parts</AppText>
+        <AppText bold size={8} color={getThemeColor('1')}>Equipments</AppText>
         {EquipmentsDataComp()}
       </AppView>
 
       <AppView margin={5} spaceBetween width={90}>
-        <AppText bold size={8} color={getThemeColor('1')}>Equipments</AppText>
+        <AppText bold size={8} color={getThemeColor('1')}>Body Parts</AppText>
         {BodyPartsDataComp()}
       </AppView>
 
