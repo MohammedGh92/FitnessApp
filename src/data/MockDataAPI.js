@@ -38,7 +38,7 @@ export function GetExerciseEquipsData(Exercise) {
 
 export function GetExerciseBodyPartsData(Exercise) {
   const bodyPartsArray = [];
-  Exercise.equipments.map(index => {
+  Exercise.bodyParts.map(index => {
     bodyParts.map(data => {
       if (data.id == index) {
         bodyPartsArray.push(data);
